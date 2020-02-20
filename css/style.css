@@ -1,3 +1,25 @@
-#section {
-    display: flex;
-}
+#main-doc{
+      	background: grey;
+      	
+      }
+#nav-bar{
+      	display: block;
+      	background: red;
+      }
+#section{
+       display: flex;
+      }
+.main-section{
+        margin: 20px;
+        background-color: white;
+      }
+@media (max-width: 765px){
+
+          #main-doc{
+      	    background: silver;
+          }
+           #nav-bar{
+      	     background: green;
+      
+            }
+	}
