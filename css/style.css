@@ -1,25 +1,40 @@
-#main-doc{
-      	background: grey;
-      	
-      }
-#nav-bar{
-      	display: block;
-      	background: red;
-      }
-#section{
-       display: flex;
-      }
-.main-section{
-        margin: 20px;
-        background-color: white;
-      }
-@media (max-width: 765px){
+body {
+      background :#fff;
+      color: #636c98;
+      font-family: 'Montserrat', sans-serif;
+}
 
-          #main-doc{
-      	    background: silver;
-          }
-           #nav-bar{
-      	     background: green;
-      
-            }
-	}
+#nav-bar{
+      display: block;
+      background :#6f23ff;
+      border-color: white;
+      border: 1px;
+}
+
+#header-img{
+      width: 200px;
+      margin-left: 200px;
+      margin-right: 400px;
+      vertical-align: middle;
+}
+
+.nav-link{
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      vertical-align: middle;
+}
+
+.main-section{
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      font-size: 14px;
+}
+
+#submit {
+      background-color: #ffd540;
+      color: #3e3e3e;
+      font-size: 14px;
+      font-weight: 600;
+}
